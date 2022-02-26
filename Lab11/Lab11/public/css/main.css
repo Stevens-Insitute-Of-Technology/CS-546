@@ -1,0 +1,39 @@
+.mainTitle {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  --main-color: #ff5ea7;
+  --accent-color: #010fcb;
+  --final-color: #ff6530;
+  --angle: 225;
+  --blend: 1;
+  --fade1: 175%;
+  --fade2: 200%;
+  --fade3: 350%;
+  text-align: center;
+  background-image: linear-gradient(
+    225deg,
+    #ff5ea7 36.04%,
+    #010fcb 88.83%,
+    #ff6530 220.3%
+  );
+}
+form {
+  text-align: center;
+}
+.ce {
+  text-align: center !important;
+}
+
+body {
+  background-color: ivory;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.error {
+  color: red;
+}
