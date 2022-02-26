@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14pt;
+}
+
+body {
+  background: #dedede;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.not-found {
+  text-align: center;
+  font-weight: bold;
+}
+
+.textUpperCase {
+  text-transform: capitalize;
+}
+
+.liUnderline {
+  text-decoration: underline;
+}
+
+li a {
+  display: block;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}

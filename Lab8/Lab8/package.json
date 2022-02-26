@@ -1,0 +1,20 @@
+{
+  "name": "cs-546-lab-8",
+  "version": "1.0.0",
+  "description": "This is solution to web programming lab-8  assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Siddharth Gulati 10468179",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "blueimp-md5": "^2.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.7.3"
+  }
+}

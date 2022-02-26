@@ -1,0 +1,15 @@
+<h1 class="not-found">{{title}}</h1>
+<h2 class="textUpperCase">{{searchTerm}}</h2>
+<a href="/">Make Another Search</a>
+{{#if character.length}}
+  <ul>
+    {{#each character}}
+      <li class="liUnderline">
+        <a href="/characters/{{id}}">{{name}}</a>
+      </li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p class="not-found">We're sorry, but no results were found for
+    {{searchTerm}}.</p>
+{{/if}}

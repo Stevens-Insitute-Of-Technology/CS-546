@@ -1,0 +1,13 @@
+<div>
+  <h1 class="not-found">{{result.name}}</h1>
+  <img src={{path}} alt="{{result.name}}" />
+  <p>{{result.description}}</p>
+  <h2 class="liUnderline">Comics</h2>
+  <ul>
+    {{#each comics}}
+      <li class="liUnderline">
+        {{this}}
+      </li>
+    {{/each}}
+  </ul>
+</div>
