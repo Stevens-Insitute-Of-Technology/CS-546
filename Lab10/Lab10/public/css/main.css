@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+label {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1px solid #afafaf;
+}
+input {
+  border: 1px solid black;
+}
+.div-padding {
+  padding-bottom: 10px;
+}
+
+a {
+  font-size: medium;
+}
+
+.logoutText {
+  color: green;
+}
+
+.privateText {
+  color: blue;
+}
+
+.buttonLogin {
+  background-color: white;
+  border: 1px solid blue;
+}
+
+.buttonSignup {
+  background-color: white;
+  border: 1px solid green;
+}

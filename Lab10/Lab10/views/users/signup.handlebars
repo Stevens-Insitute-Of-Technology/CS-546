@@ -1,0 +1,26 @@
+<h1>Sign Up</h1>
+<form method="POST" action="/signup" id="signup-form">
+  <div class="div-padding">
+    <label for="username">Username</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Username"
+      value="{{username}}"
+    />
+  </div>
+  <div class="div-padding">
+    <label for="password">Password</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Password"
+      value="{{password}}"
+    />
+  </div>
+  <button class="buttonSignup" type="submit" name="submitButton" id="submitButton">Create an account</button>
+  <div class="error">{{error}}</div>
+</form>
+<a href="/">Already have an account? Click here to log-in</a>
